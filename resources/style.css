@@ -6,6 +6,7 @@ body {
     margin: 0;
     line-height: 1.4rem;
     font-family: 'Helvetica', sans-serif;
+    background-color: #f3f5f5;
 }
 
 div {
@@ -19,8 +20,6 @@ div {
 
 header {
     height: 64px;
-    position: fixed;
-    z-index: 10;
 }
 
 .navbar {
@@ -35,6 +34,12 @@ header {
     align-items: center;
     display: flex;
     flex-grow: 1;
+    padding: ;
+}
+
+.logo img {
+    vertical-align: middle;
+    height: 32px;
     margin-left: 24px;
 }
 
@@ -43,29 +48,8 @@ nav span {
     display: inline-block;
 }
 
-#logo-img {
-
-}
-
-#label1 {
-
-}
-
-#label3 {
-
-}
-
-main {
+content {
     margin-top: 64px;
-}
-
-footer {
-    padding-top: 16px;
-    padding-bottom: 50px;;
-}
-
-.copyright {
- margin-left: 24px;
 }
 
 .main {
@@ -76,18 +60,27 @@ footer {
     width: 40%;
 }
 
-#section1 {
+.sections {
+    padding: 32px 0px;
+    display: flex;
+}
+
+.grey {
+    background-color: lightgrey;
 
 }
 
-#section2 {
-
+.white {
+    background-color: #fff;
+    padding: 32px 0px;
 }
 
-#section3 {
-
+footer {
+    padding-top: 16px;
+    padding-bottom: 50px;
+    display: flex;
 }
 
-#section4 {
-
+.copyright {
+    margin-left: 24px;
 }
