@@ -13,12 +13,35 @@ header {
     z-index: 10;
 }
 
+.navbar {
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
 nav {
+    text-align: right;
+}
+
+#logo-img {
+
+}
+
+#label1 {
+
+}
+
+#label2 {
+
+}
+
+#label3 {
 
 }
 
 footer {
-    
+
 }
 
 .copyright {
