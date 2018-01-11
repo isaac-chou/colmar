@@ -1,5 +1,5 @@
 html {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
@@ -39,7 +39,7 @@ h4 {
 }
 
 .navbar {
-    height: 64px;
+    height: 4rem;
     background-color: #fff;
     z-index: 10;
     width: 100%;
@@ -56,17 +56,17 @@ h4 {
 
 .logo img {
     vertical-align: middle;
-    height: 32px;
-    margin-left: 24px;
+    height: 2rem;
+    margin-left: 1.5rem;
 }
 
 nav {
     text-align: right;
-    margin-right: 24px;
+    margin-right: 1.5rem;
 }
 
 nav a {
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 nav span {
@@ -79,7 +79,7 @@ nav span {
 }
 
 .content {
-    padding-top: 64px;
+    padding-top: 4rem;
 }
 
 .main {
@@ -87,16 +87,21 @@ nav span {
 }
 
 .main-section {
-    margin: 0 24px;
+    margin: 0 1.5rem;
+}
+
+.quote {
+    font-size: 0.75rem;
+    margin-top: 2rem;
 }
 
 .sub {
     width: 40%;
-    flex: 1;
+    height: auto;
 }
 
 .sub-section {
-    margin: -16px 16px 0;
+    margin: 1rem 1rem 0;
 }
 
 .img-container {
@@ -119,11 +124,12 @@ nav span {
 
 .section-header {
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .info-header {
-    margin-top: 24px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .left {
@@ -135,27 +141,30 @@ nav span {
 }
 
 .sub-section p {
-    margin-top: 24px;
+    margin-top: 1.5rem;
 }
 
 .banner {
     display: flex;
-    flex-flow: column;
+    align-items: center;
 }
 
 .banner-txt {
-    justify-content: center;
+}
+
+#banner-subheader {
+    margin: 2.5rem 0;
 }
 
 .sub-banner {
     display: flex;
     align-items: center;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .sub-banner-img {
     width: 35%;
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .sub-banner-img img {
@@ -169,7 +178,7 @@ nav span {
 }
 
 .sub-banner-txt p {
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 .sub-banner-txt a {
@@ -178,29 +187,24 @@ nav span {
 }
 
 .sections {
-    padding: 32px 0px;
+    padding: 2rem 0;
 }
 
 .grey {
     background-color: #eaebec;
 }
 
-.quote {
-    font-size: 14px;
-}
-
-.btn-banner {
-    margin-top: 24px;
-    width: 70%;
+#btn {
     text-align: center;
-    padding: 8px 0;
+    width: 70%;
+    padding: 0.5rem 2rem;
     background-color: #4a4a4a;
     color: #fff;
 }
 
 .thesis-sub-header {
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .horizontal {
@@ -214,15 +218,15 @@ nav span {
 }
 
 .footer-nav {
-    padding-top: 16px;
-    padding-bottom: 50px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     display: flex;
     align-items: center;
     font-size: 0.75rem;
 }
 
 .copyright {
-    margin-left: 24px;
+    margin-left: 1.5rem;
     align-items: center;
     display: flex;
     flex-grow: 1;
