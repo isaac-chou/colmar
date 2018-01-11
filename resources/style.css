@@ -1,5 +1,5 @@
 html {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
@@ -16,7 +16,6 @@ div {
 
 .container {
     margin: 0 auto;
-    max-width: 960px;
 }
 
 h2 {
@@ -73,7 +72,7 @@ content {
     width: 60%;
 }
 
-.main-content {
+.main-section {
     margin: 0 24px;
 }
 
@@ -97,16 +96,43 @@ content {
 
 .sub {
     width: 40%;
+    margin-top: -16px;
 }
 
-.sub-content {
-    margin: 16px;
-}
-
-.subsection {
+.sub-section {
     margin: 0 16px;
     display: flex;
     flex-flow: column;
+}
+
+.sub-banner {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.sub-banner-img {
+    width: 35%;
+    margin-right: 16px;
+}
+
+.sub-banner-img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.sub-banner-txt {
+    width: 65%;
+}
+
+.sub-banner-txt p {
+    margin-top: 8px;
+}
+
+.sub-banner-txt a {
+    text-decoration: none;
+    color: #039BE5;
 }
 
 .sections {
@@ -126,6 +152,9 @@ content {
 .grey {
     background-color: #eaebec;
 }
+
+
+
 
 .footer-nav {
     padding-top: 16px;
