@@ -97,7 +97,6 @@ nav span {
 
 .sub {
     width: 40%;
-    height: auto;
 }
 
 .sub-section {
@@ -144,7 +143,7 @@ nav span {
     margin-top: 1.5rem;
 }
 
-.banner {
+#banner {
     display: flex;
     align-items: center;
 }
@@ -154,6 +153,10 @@ nav span {
 
 #banner-subheader {
     margin: 2.5rem 0;
+}
+
+#first {
+    margin-top: -2rem;
 }
 
 .sub-banner {
@@ -210,12 +213,36 @@ nav span {
 .horizontal {
     display: flex;
     flex-flow: row;
+    align-items: flex-start;
 }
 
 .vertical {
     display: flex;
     flex-flow: column;
 }
+
+.cards {
+    padding: 0 6rem;
+    display: inline-flex;
+}
+
+.card {
+
+}
+
+.card-img {
+
+}
+
+.card-txt {
+
+}
+
+.card-title {
+
+}
+
+
 
 .footer-nav {
     padding-top: 2rem;
