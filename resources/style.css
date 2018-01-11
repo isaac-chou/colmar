@@ -148,7 +148,8 @@ nav span {
     align-items: center;
 }
 
-.banner-txt {
+.banner-txt a {
+    text-decoration: none;
 }
 
 #banner-subheader {
@@ -201,6 +202,7 @@ nav span {
     text-align: center;
     width: 70%;
     padding: 0.5rem 2rem;
+    text-decoration: none;
     background-color: #4a4a4a;
     color: #fff;
 }
@@ -224,22 +226,34 @@ nav span {
 .cards {
     padding: 0 6rem;
     display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .card {
-
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 1.5rem;
+    background-color: #fff;
+    width: 32%;
+    margin-bottom: 2rem;
 }
 
 .card-img {
-
+    max-width:100%
 }
 
-.card-txt {
+.card-txt{
+    padding: 0 1rem;
+}
 
+.card-txt p {
+    margin-top: 0.5rem;
+    overflow: auto;
 }
 
 .card-title {
-
+    margin-top: 1rem;
 }
 
 
