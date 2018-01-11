@@ -96,7 +96,7 @@ nav span {
 }
 
 .sub-section {
-    margin: 0 16px;
+    margin: -16px 16px 0;
 }
 
 .img-container {
@@ -134,7 +134,7 @@ nav span {
     text-align: center;
 }
 
-.sub-section h4, p {
+.sub-section p {
     margin-top: 24px;
 }
 
@@ -196,6 +196,11 @@ nav span {
     padding: 8px 0;
     background-color: #4a4a4a;
     color: #fff;
+}
+
+.thesis-sub-header {
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 
 .horizontal {
