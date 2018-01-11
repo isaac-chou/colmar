@@ -51,7 +51,9 @@ h4 {
 .logo {
     align-items: center;
     display: flex;
+    /*
     flex-grow: 1;
+    */
 }
 
 .logo img {
@@ -63,6 +65,7 @@ h4 {
 nav {
     text-align: right;
     margin-right: 1.5rem;
+    margin-left: auto;
 }
 
 nav a {
@@ -235,7 +238,7 @@ nav span {
     flex-flow: column;
     padding-bottom: 1.5rem;
     background-color: #fff;
-    width: 32%;
+    flex-basis: 32%;
     margin-bottom: 2rem;
 }
 
