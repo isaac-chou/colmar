@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body {
@@ -14,14 +14,22 @@ div {
     display: block;
 }
 
-.container {
-    margin: 0 auto;
+h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 4rem;
 }
 
 h2 {
     font-weight: bold;
     font-size: 2rem;
     line-height: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 h4 {
@@ -34,6 +42,8 @@ h4 {
     height: 64px;
     background-color: #fff;
     z-index: 10;
+    width: 100%;
+    position: fixed;
     display: flex;
     align-items: center;
 }
@@ -64,8 +74,12 @@ nav span {
     color: #4a4a4a;
 }
 
-content {
-    margin-top: 64px;
+.container {
+    margin: 0 auto;
+}
+
+.content {
+    padding-top: 64px;
 }
 
 .main {
@@ -74,6 +88,15 @@ content {
 
 .main-section {
     margin: 0 24px;
+}
+
+.sub {
+    width: 40%;
+    flex: 1;
+}
+
+.sub-section {
+    margin: 0 16px;
 }
 
 .img-container {
@@ -94,15 +117,34 @@ content {
     max-width: 100%;
 }
 
-.sub {
-    width: 40%;
-    margin-top: -16px;
+.section-header {
+    width: 100%;
+    margin-bottom: 32px;
 }
 
-.sub-section {
-    margin: 0 16px;
+.info-header {
+    margin-top: 24px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.sub-section h4, p {
+    margin-top: 24px;
+}
+
+.banner {
     display: flex;
     flex-flow: column;
+}
+
+.banner-txt {
+    justify-content: center;
 }
 
 .sub-banner {
@@ -137,7 +179,14 @@ content {
 
 .sections {
     padding: 32px 0px;
-    display: flex;
+}
+
+.grey {
+    background-color: #eaebec;
+}
+
+.quote {
+    font-size: 14px;
 }
 
 .btn-banner {
@@ -149,12 +198,15 @@ content {
     color: #fff;
 }
 
-.grey {
-    background-color: #eaebec;
+.horizontal {
+    display: flex;
+    flex-flow: row;
 }
 
-
-
+.vertical {
+    display: flex;
+    flex-flow: column;
+}
 
 .footer-nav {
     padding-top: 16px;
