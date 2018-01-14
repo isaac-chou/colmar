@@ -5,32 +5,33 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700|Roboto+Condensed:400,700" rel="stylesheet">
     <link href="./resources/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/style.css" type="text/css" rel="stylesheet">
-
 </head>
 <body>
     <!--top nav bar-->
     <header>
         <div class="container">
-            <div class="navbar desktop">
-                <div class="logo">
-                    <a href='#'><img src="./resources/assets/images/ic-logo.svg" alt='Colmar Academy logo' id='logo-img'></a>
-                    <p><strong>COLMAR</strong>ACADEMY</p>
+            <div class="desktop">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href='#'><img src="./resources/assets/images/ic-logo.svg" alt='Colmar Academy logo' id='logo-img'></a>
+                        <p><strong>COLMAR</strong>ACADEMY</p>
+                    </div>
+                    <nav>
+                        <a href='#'><span>On campus</span></a>
+                        <a href='#'><span>Online</span></a>
+                        <a href='#'><span>For companies</span></a>
+                        <a href='#'><span>Sign in</span></a>
+                    </nav>
                 </div>
-                <nav>
-                    <a href='#'><span>On campus</span></a>
-                    <a href='#'><span>Online</span></a>
-                    <a href='#'><span>For companies</span></a>
-                    <a href='#'><span>Sign in</span></a>
-                </nav>
             </div>
-            <nav class="navbar mobile">
-                <ul>
-                  <li><a href="#"><img src="./resources/assets/images/ic-logo.svg" alt='Colmar Academy logo'></a></li>
-                  <li><a href="#"><img src="./resources/assets/images/ic-on-campus.svg" alt='On campus icon'></a></li>
-                  <li><a href="#"><img src="./resources/assets/images/ic-online.svg" alt='Online icon'></a></li>
-                  <li><a href="#"><img src="./resources/assets/images/ic-login.svg" alt='Login icon'></a></li>
-                </ul>
-              </nav>
+            <div class="mobile">
+                <nav class="navbar">
+                    <a href="#"><img src="./resources/assets/images/ic-logo.svg" alt='Colmar Academy logo'></a>
+                    <a href="#"><img src="./resources/assets/images/ic-on-campus.svg" alt='On campus icon'></a>
+                    <a href="#"><img src="./resources/assets/images/ic-online.svg" alt='Online icon'></a>
+                    <a href="#"><img src="./resources/assets/images/ic-login.svg" alt='Login icon'></a>
+                 </nav>
+            </div>
         </div>
     </header>
 
@@ -39,7 +40,8 @@
         <div class="container">
 
             <!--banner-->
-            <div class="sections grey">
+            <div class="desktop">
+                <div class="sections grey">
                 <div class="horizontal" id='banner'>
                     <div class="main">
                         <div class="main-section">
@@ -51,7 +53,7 @@
                     <div class="sub">
                         <div class="sub-section">
                             <div class="banner-txt">
-                                <h1>Learn something new everyday</h1>
+                                <h1 id='banner-header'>Learn something new everyday</h1>
                                 <h4 id='banner-subheader'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                 <a href="#"><p id='btn'>Start here</p></a>
                             </div>
@@ -59,9 +61,23 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <div class="mobile">
+                <div class="grey">
+                    <div class="img-container">
+                        <img src="./resources/assets/images/banner.jpg" alt='image of students studying'>
+                    </div>
+                    <div class="sections">
+                        <h1>Learn something new everyday</h1>
+                        <h3 id='banner-subheader'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <a href="#"><p id='btn'>Start here</p></a>
+                    </div>
+                </div>
+            </div>
 
             <!--information -->
-            <div class="sections">
+            <div class="desktop">
+                <div class="sections">
                 <div class="horizontal">
                     <div class="main desktop">
                         <div class="main-section">                                   <div class="img-container">
@@ -108,9 +124,13 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <div class="mobile">
+            </div>
 
             <!--learning-->
-            <div class="sections grey">
+            <div class="desktop">
+                <div class="sections grey">
                 <h2 class="section-header center">Start learning</h2>
                 <div class="cards">
                     <div class="card">
@@ -189,9 +209,13 @@
                         </div>
                 </div>
             </div>
+            </div>
+            <div class="mobile">
+            </div>
 
             <!--thesis-->
-            <div class="sections">
+            <div class="desktop">
+                <div class="sections">
                 <h2 class="section-header center">Thesis exhibit</h2>
                 <div class="horizontal">
                     <div class="main">
@@ -228,22 +252,28 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <div class="mobile">
+            </div>
         </div>
     </div>
 
     <!--copyright and footer links-->
     <footer>
         <div class="container">
-            <div class="footer-nav">
-                <div class="copyright">
-                    <span>© 2016 Colmar Academy. All rights reserved.</span>
+            <div class="desktop">
+                <div class="footer-nav">
+                    <div class="copyright">
+                        <span>© 2016 Colmar Academy. All rights reserved.</span>
+                    </div>
+                    <nav class="desktop">
+                        <a href='#'><span>Terms</span></a>
+                        <a href='#'><span>Privacy</span></a>
+                    </nav>
                 </div>
-                <nav class="desktop">
-                    <a href='#'><span>Terms</span></a>
-                    <a href='#'><span>Privacy</span></a>
-                </nav>
             </div>
-
+            <div class="mobile">
+            </div>
         </div>
     </footer>
 </body>

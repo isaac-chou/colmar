@@ -10,11 +10,10 @@ body {
     color: #4a4a4a;
 }
 
-/*
 div {
     display: block;
 }
-*/
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -57,12 +56,12 @@ h4 {
     display: none;
 }
 
+.desktop {
+    display: block;
+}
 .logo {
     align-items: center;
     display: flex;
-    /*
-    flex-grow: 1;
-    */
 }
 
 .logo img {
@@ -283,26 +282,64 @@ nav span {
     flex-grow: 1;
 }
 
-@@media only screen and (max-width: 760px) {
-    /*banner section*/
-    header .desktop {
+@media only screen and (max-width: 470px) {
+    .desktop {
         display: none;
     }
 
-    header .mobile {
+    .mobile {
         display: block;
     }
 
-    /*banner section*/
-    .horizontal {
-        display: flex;
-        flex-flow: column;
-        align-items: flex-start;
+    h1 {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
     }
 
-    .sub-section {
-        padding: 0 1rem;
+    h2 {
+        font-size: 1.8rem;
+        line-height: 2rem;
     }
+
+    h3 {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    /*header section*/
+    .navbar {
+        display: inline-flex;
+        justify-content: space-between;
+        padding-right: 1.5rem;
+    }
+
+    nav {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav a {
+        margin: 0 1.5rem;
+    }
+
+    .sections {
+        padding: 2rem 1rem;
+    }
+
+    /*banner section*/
+    #banner-subheader {
+        margin: 2rem 0 1.5rem;
+    }
+
+    #btn {
+        width: auto;
+    }
+    /*banner section*/
+
 
     /*information section*/
 
