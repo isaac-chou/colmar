@@ -364,7 +364,7 @@ nav span {
         margin-bottom: 2rem;
     }
     /*learning section*/
-    #learning {
+    #topborder {
         border-top: 1px solid #d8d8d8;
     }
 
@@ -373,6 +373,7 @@ nav span {
         background-color: #d8d8d8;
         color: #4a4a4a;
         margin-bottom: 0.5rem;
+        font-weight: bold;
     }
 
     .learning-mobile a {
@@ -380,5 +381,12 @@ nav span {
     }
 
     /*thesis section*/
+    .thesis {
+        padding: 2rem 0 1.5rem;
+    }
 
+    /*footer section*/
+    footer {
+        padding: 1rem;
+    }
 }
