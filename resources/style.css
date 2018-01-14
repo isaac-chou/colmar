@@ -330,6 +330,11 @@ nav span {
         padding: 2rem 1rem;
     }
 
+    .section-header-mobile {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
     /*banner section*/
     #banner-subheader {
         margin: 2rem 0 1.5rem;
@@ -340,10 +345,39 @@ nav span {
     }
     /*banner section*/
 
-
     /*information section*/
+    .mobile-banner {
+        width: auto;
+    }
 
-    /*courses section*/
+    .sub-banner-txt {
+        width: auto;
+        padding: 0 1rem;
+        margin: 2rem 0 4rem;
+    }
+
+    #first {
+        margin-top: -1rem;
+    }
+
+    #last {
+        margin-bottom: 2rem;
+    }
+    /*learning section*/
+    #learning {
+        border-top: 1px solid #d8d8d8;
+    }
+
+    .learning-mobile li {
+        padding: 1rem 1rem 1.5rem;
+        background-color: #d8d8d8;
+        color: #4a4a4a;
+        margin-bottom: 0.5rem;
+    }
+
+    .learning-mobile a {
+        text-decoration: none;
+    }
 
     /*thesis section*/
 
