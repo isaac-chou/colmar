@@ -282,7 +282,7 @@ nav span {
     flex-grow: 1;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) and (orientation: portrait){
     .desktop {
         display: none;
     }
